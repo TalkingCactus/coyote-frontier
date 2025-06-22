@@ -2,6 +2,7 @@ using Content.Client.Administration.Managers;
 using Content.Client.Changelog;
 using Content.Client.Chat.Managers;
 using Content.Client.DebugMon;
+using Content.Client.Consent; // Floofstation
 using Content.Client.Eui;
 using Content.Client.Fullscreen;
 using Content.Client.GameTicking.Managers;
@@ -38,6 +39,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Replays;
 using Robust.Shared.Timing;
 using Content.Client._NF.Emp.Overlays; // Frontier
+using Content.Client._FS.DiscordAuth; // Floofstation
 
 namespace Content.Client.Entry
 {
@@ -57,6 +59,7 @@ namespace Content.Client.Entry
         [Dependency] private readonly ChangelogManager _changelogManager = default!;
         [Dependency] private readonly ViewportManager _viewportManager = default!;
         [Dependency] private readonly IUserInterfaceManager _userInterfaceManager = default!;
+        [Dependency] private readonly IClientConsentManager _clientConsentManager = default!; // Floofstation
         [Dependency] private readonly IInputManager _inputManager = default!;
         [Dependency] private readonly IOverlayManager _overlayManager = default!;
         [Dependency] private readonly IChatManager _chatManager = default!;
@@ -74,7 +77,7 @@ namespace Content.Client.Entry
         [Dependency] private readonly ILogManager _logManager = default!;
         [Dependency] private readonly DebugMonitorManager _debugMonitorManager = default!;
         [Dependency] private readonly TitleWindowManager _titleWindowManager = default!;
-        [Dependency] private readonly IEntitySystemManager _entitySystemManager = default!;
+        [Dependency] private readonly DiscordAuthManager _discordAuth = default!; // Floofstation
 
         public override void Init()
         {
@@ -168,6 +171,7 @@ namespace Content.Client.Entry
             _overlayManager.AddOverlay(new RadiationPulseOverlay());
             _overlayManager.AddOverlay(new EmpBlastOverlay()); // Frontier
             _chatManager.Initialize();
+            _clientConsentManager.Initialize(); // Floofstation
             _clientPreferencesManager.Initialize();
             _euiManager.Initialize();
             _voteManager.Initialize();
@@ -175,6 +179,7 @@ namespace Content.Client.Entry
             _userInterfaceManager.SetActiveTheme(_configManager.GetCVar(CVars.InterfaceTheme));
             _documentParsingManager.Initialize();
             _titleWindowManager.Initialize();
+            _discordAuth.Initialize(); // Floofstation
 
             _baseClient.RunLevelChanged += (_, args) =>
             {

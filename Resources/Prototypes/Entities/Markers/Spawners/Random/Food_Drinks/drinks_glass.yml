@@ -28,6 +28,7 @@
       - DrinkBeerglass
       - DrinkBerryJuice
       - DrinkBlackRussianGlass
+      - DrinkBlueBallerGlass  # Floofstaion
       - DrinkBlueCuracaoGlass
       - DrinkBlueHawaiianGlass
       - DrinkBloodyMaryGlass
@@ -81,12 +82,15 @@
       - DrinkMojito
       - DrinkMonkeyBusinessGlass
       - DrinkNTCahors
+      - DrinkOrgasmOnTheBeachGlass # Floofstation
       - DrinkPainkillerGlass
       - DrinkPatronGlass
       - DrinkPinaColadaGlass
+      - DrinkPomPassionGlass # Floofstation
       - DrinkPoscaGlass
       - DrinkRadlerGlass
       - DrinkRedMeadGlass
+      - DrinkRedRocketGlass # Floofstation
       - DrinkRewriter
       - DrinkRoyRogersGlass
       - DrinkRootBeerFloatGlass
@@ -109,11 +113,13 @@
       - DrinkVodkaRedBool
       - DrinkVodkaTonicGlass
       - DrinkWatermelonJuice
+      - DrinkWatermelonGinJizzGlass  # Floofstaion
       - DrinkWatermelonWakeup
       - DrinkWhiskeyColaGlass
       - DrinkWhiskeySodaGlass
       - DrinkWhiteRussianGlass
       - DrinkWineGlass
+      - DrinkYeOlHandyGlass # Floofstation
       - XenoBasherGlass
       - DrinkShakeBlue
       - DrinkShakeWhite

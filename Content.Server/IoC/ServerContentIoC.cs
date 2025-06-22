@@ -6,6 +6,7 @@ using Content.Server.Administration.Notes;
 using Content.Server.Afk;
 using Content.Server.Chat.Managers;
 using Content.Server.Connection;
+using Content.Server.Consent; // Floofstation
 using Content.Server.Database;
 using Content.Server.Discord;
 using Content.Server.Discord.WebhookMessages;
@@ -30,6 +31,7 @@ using Content.Shared.Chat;
 using Content.Shared.Kitchen;
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.Players.RateLimiting;
+using Content.Server._FS.DiscordAuth; // Floofstation
 
 namespace Content.Server.IoC
 {
@@ -41,6 +43,7 @@ namespace Content.Server.IoC
             IoCManager.Register<ISharedChatManager, ChatManager>();
             IoCManager.Register<IChatSanitizationManager, ChatSanitizationManager>();
             IoCManager.Register<IMoMMILink, MoMMILink>();
+            IoCManager.Register<IServerConsentManager, ServerConsentManager>(); // Floofstation
             IoCManager.Register<IServerPreferencesManager, ServerPreferencesManager>();
             IoCManager.Register<IServerDbManager, ServerDbManager>();
             IoCManager.Register<RecipeManager, RecipeManager>();
@@ -79,6 +82,7 @@ namespace Content.Server.IoC
             IoCManager.Register<MultiServerKickManager>();
             IoCManager.Register<CVarControlManager>();
             IoCManager.Register<MiniAuthManager>(); //Frontier
+            IoCManager.Register<DiscordAuthManager>(); //Floofstation
         }
     }
 }
