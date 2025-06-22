@@ -415,7 +415,8 @@ FoodMeatFiestaKebab: FoodKebabSkewer
 ClothingBeltSuspenders: ClothingBeltSuspendersRed
 
 # 2024-08-19
-ClothingNeckShockCollar: ClothingBackpackElectropack
+# Floofstation - removed this migration as we're bringing this back
+# ClothingNeckShockCollar: ClothingBackpackElectropack
 
 # 2024-08-22
 ComputerShuttleSalvage: null
@@ -443,38 +444,38 @@ BaseAdvancedPen: Pen
 
 # 2024-10-09
 # Removal of separate borg chassis parts, replace them with generic borg parts.
-LeftArmBorgEngineer: LeftArmBorg
-RightArmBorgEngineer: RightArmBorg
-LeftLegBorgEngineer: LeftLegBorg
-RightLegBorgEngineer: RightLegBorg
-HeadBorgEngineer: LightHeadBorg
-TorsoBorgEngineer: TorsoBorg
+# LeftArmBorgEngineer: LeftArmBorg
+# RightArmBorgEngineer: RightArmBorg
+# LeftLegBorgEngineer: LeftLegBorg
+# RightLegBorgEngineer: RightLegBorg
+# HeadBorgEngineer: LightHeadBorg
+# TorsoBorgEngineer: TorsoBorg
 
-LeftArmBorgMedical: LeftArmBorg
-RightArmBorgMedical: RightArmBorg
-LeftLegBorgMedical: LeftLegBorg
-RightLegBorgMedical: RightLegBorg
-HeadBorgMedical: LightHeadBorg
-TorsoBorgMedical: TorsoBorg
+# LeftArmBorgMedical: LeftArmBorg
+# RightArmBorgMedical: RightArmBorg
+# LeftLegBorgMedical: LeftLegBorg
+# RightLegBorgMedical: RightLegBorg
+# HeadBorgMedical: LightHeadBorg
+# TorsoBorgMedical: TorsoBorg
 
-LeftArmBorgMining: LeftArmBorg
-RightArmBorgMining: RightArmBorg
-LeftLegBorgMining: LeftLegBorg
-RightLegBorgMining: RightLegBorg
-HeadBorgMining: LightHeadBorg
-TorsoBorgMining: TorsoBorg
+# LeftArmBorgMining: LeftArmBorg
+# RightArmBorgMining: RightArmBorg
+# LeftLegBorgMining: LeftLegBorg
+# RightLegBorgMining: RightLegBorg
+# HeadBorgMining: LightHeadBorg
+# TorsoBorgMining: TorsoBorg
 
-LeftArmBorgService: LeftArmBorg
-RightArmBorgService: RightArmBorg
-LeftLegBorgService: LeftLegBorg
-RightLegBorgService: RightLegBorg
-HeadBorgService: LightHeadBorg
-TorsoBorgService: TorsoBorg
+# LeftArmBorgService: LeftArmBorg
+# RightArmBorgService: RightArmBorg
+# LeftLegBorgService: LeftLegBorg
+# RightLegBorgService: RightLegBorg
+# HeadBorgService: LightHeadBorg
+# TorsoBorgService: TorsoBorg
 
-LeftLegBorgJanitor: LeftLegBorg
-RightLegBorgJanitor: RightLegBorg
-HeadBorgJanitor: LightHeadBorg
-TorsoBorgJanitor: TorsoBorg
+# LeftLegBorgJanitor: LeftLegBorg
+# RightLegBorgJanitor: RightLegBorg
+# HeadBorgJanitor: LightHeadBorg
+# TorsoBorgJanitor: TorsoBorg
 
 # 2024-11-17
 PresentRandomAsh: PresentRandomCoal

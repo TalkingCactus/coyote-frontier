@@ -79,6 +79,10 @@
   - type: MachinePart # Frontier
     part: PowerCell # Frontier
     rating: 1 # Frontier
+  - type: Construction
+    deconstructionTarget: null
+    graph: Energyweapon
+    node: laser
 
 - type: entity
   id: PowerCellSmallPrinted

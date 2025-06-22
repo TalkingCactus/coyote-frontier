@@ -123,6 +123,9 @@
   id: PirateUplink
 
 - type: Tag
+  id: MercenaryUplink
+
+- type: Tag
   id: DroneUsable
 
 - type: Tag
