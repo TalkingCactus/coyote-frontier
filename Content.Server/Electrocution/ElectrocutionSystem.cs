@@ -354,7 +354,7 @@ public sealed class ElectrocutionSystem : SharedElectrocutionSystem
         electrocutionComponent.Electrocuting = uid;
         electrocutionComponent.Source = sourceUid;
 
-        RaiseLocalEvent(uid, new ElectrocutedEvent(uid, sourceUid, siemensCoefficient), true);
+        RaiseLocalEvent(uid, new ElectrocutedEvent(uid, sourceUid, siemensCoefficient, shockDamage), true);
 
         return true;
     }
