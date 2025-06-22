@@ -12,6 +12,3 @@
       orGroup: Blueprints
     - id: NFBlueprintWeaponTemperatureGun
       orGroup: Blueprints
-    - id: FloofBlueprintWeaponLaserPrototypePulseRifle # Floof - Adding the Prototype Pulse Rifle Blueprint to the loot pool
-      prob: 0.2
-      orGroup: Blueprints

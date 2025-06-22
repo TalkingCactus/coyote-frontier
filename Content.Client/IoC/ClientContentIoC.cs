@@ -3,7 +3,6 @@ using Content.Client.Changelog;
 using Content.Client.Chat.Managers;
 using Content.Client.Clickable;
 using Content.Client.DebugMon;
-using Content.Client.Consent; // Floofstation
 using Content.Client.Eui;
 using Content.Client.Fullscreen;
 using Content.Client.GameTicking.Managers;
@@ -25,7 +24,6 @@ using Content.Shared.Administration.Managers;
 using Content.Shared.Chat;
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.Players.RateLimiting;
-using Content.Client._FS.DiscordAuth; // Floofstation
 
 namespace Content.Client.IoC
 {
@@ -37,7 +35,6 @@ namespace Content.Client.IoC
 
             collection.Register<IParallaxManager, ParallaxManager>();
             collection.Register<IChatManager, ChatManager>();
-            collection.Register<IClientConsentManager, ClientConsentManager>(); // Floofstation
             collection.Register<ISharedChatManager, ChatManager>();
             collection.Register<IClientPreferencesManager, ClientPreferencesManager>();
             collection.Register<IStylesheetManager, StylesheetManager>();
@@ -62,7 +59,6 @@ namespace Content.Client.IoC
             collection.Register<PlayerRateLimitManager>();
             collection.Register<SharedPlayerRateLimitManager, PlayerRateLimitManager>();
             collection.Register<TitleWindowManager>();
-            IoCManager.Register<DiscordAuthManager>(); // Floofstation
         }
     }
 }

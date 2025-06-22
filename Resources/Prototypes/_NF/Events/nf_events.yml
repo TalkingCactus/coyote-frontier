@@ -51,7 +51,7 @@
     weight: 1
     duration: 35
     earliestStart: 90
-    minimumPlayers: 1 # Floof - we ball
+    minimumPlayers: 20
     reoccurrenceDelay: 480 # 8 hours
   - type: BluespaceCargoRule
     spawnerPrototype: CrateSyndicateSurplusBundle
@@ -64,8 +64,8 @@
   - type: StationEvent
     weight: 8 # Fairly common.
     duration: 35
-    earliestStart: 30
-    minimumPlayers: 1 # Floof - we ball
+    earliestStart: 50
+    minimumPlayers: 20
     reoccurrenceDelay: 50
   - type: RandomFaxRule
     minFaxes: 1
@@ -86,7 +86,7 @@
   components:
   - type: StationEvent
     weight: 100 # Fairly common.
-    minimumPlayers: 1 # Floof - we ball
+    minimumPlayers: 10
     duration: 35
   - type: RandomFaxRule
     minFaxes: 3

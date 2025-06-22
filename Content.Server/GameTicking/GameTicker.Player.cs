@@ -130,7 +130,7 @@ namespace Content.Server.GameTicking
                         _pvsOverride.RemoveSessionOverride(mindId.Value, session);
                     }
 
-                     _userDb.ClientDisconnected(session);
+                    _userDb.ClientDisconnected(session);
                     break;
                 }
             }

@@ -12,7 +12,6 @@ public sealed class ChannelSelectorPopup : Popup
         ChatSelectChannel.Local,
         ChatSelectChannel.Whisper,
         ChatSelectChannel.Emotes,
-        ChatSelectChannel.Subtle, // Floofstation
         ChatSelectChannel.Radio,
         ChatSelectChannel.LOOC,
         ChatSelectChannel.OOC,

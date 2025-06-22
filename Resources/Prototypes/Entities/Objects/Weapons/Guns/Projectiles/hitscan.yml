@@ -72,13 +72,13 @@
       Heat: 7
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
-    state: muzzle_laserlight
+    state: muzzle_laser
   travelFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
-    state: beamlight
+    state: beam
   impactFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
-    state: impact_laserlight
+    state: impact_laser
 
 - type: hitscan
   abstract: true # Frontier: use _NF variants

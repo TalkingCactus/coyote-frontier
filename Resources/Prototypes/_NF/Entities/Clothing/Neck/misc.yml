@@ -20,7 +20,7 @@
     - Crucifix
 
 - type: entity
-  parent: ClothingNeckCollarBase # Floofstation - changed from ClothingNeckBase
+  parent: ClothingNeckBase
   id: ClothingNeckBellCollar
   name: bell collar
   description: A way to inform others about your presence, or just to annoy everyone around you!
