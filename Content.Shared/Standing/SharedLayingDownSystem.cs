@@ -172,15 +172,15 @@ public abstract class SharedLayingDownSystem : EntitySystem
 
     public bool TryLieDown(EntityUid uid, LayingDownComponent? layingDown = null, StandingStateComponent? standingState = null, DropHeldItemsBehavior behavior = DropHeldItemsBehavior.NoDrop)
     {
-        if (!Resolve(uid, ref standingState, false)
-            || !Resolve(uid, ref layingDown, false)
-            || standingState.CurrentState is not StandingState.Standing)
-        {
-            if (behavior == DropHeldItemsBehavior.AlwaysDrop)
-                RaiseLocalEvent(uid, new DropHandItemsEvent());
-
-            return false;
-        }
+        // if (!Resolve(uid, ref standingState, false)
+        //     || !Resolve(uid, ref layingDown, false)
+        //     || standingState.CurrentState is not StandingState.Standing)
+        // {
+        //     if (behavior == DropHeldItemsBehavior.AlwaysDrop)
+        //         RaiseLocalEvent(uid, new DropHandItemsEvent());
+        //
+        //     return false;
+        // }
 
         _standing.Down(uid, true, behavior != DropHeldItemsBehavior.NoDrop, standingState: standingState);
         return true;
