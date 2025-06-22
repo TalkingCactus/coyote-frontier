@@ -304,7 +304,7 @@ public sealed class ElectrocutionSystem : SharedElectrocutionSystem
             || !DoCommonElectrocution(uid, sourceUid, shockDamage, time, refresh, siemensCoefficient, statusEffects))
             return false;
 
-        RaiseLocalEvent(uid, new ElectrocutedEvent(uid, sourceUid, siemensCoefficient), true);
+        RaiseLocalEvent(uid, new ElectrocutedEvent(uid, sourceUid, siemensCoefficient, shockDamage), true);
         return true;
     }
 
