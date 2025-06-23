@@ -168,20 +168,20 @@
     autoRechargePause: true
     autoRechargePauseTime: 30
 
-- type: entity
-  name: energy shotgun
-  parent: BaseWeaponEnergyShotgun
-  id: WeaponEnergyShotgun
-  components:
-  - type: GunRequiresWield
-  - type: Wieldable
-  - type: Tag
-    tags:
-    - HighRiskItem
-  - type: StealTarget
-    stealGroup: WeaponEnergyShotgun
+# - type: entity
+#   name: energy shotgun
+#   parent: BaseWeaponEnergyShotgun
+#   id: WeaponEnergyShotgun
+#   components:
+#   - type: GunRequiresWield
+#   - type: Wieldable
+#   - type: Tag
+#     tags:
+#     - HighRiskItem
+#   - type: StealTarget
+#     stealGroup: WeaponEnergyShotgun
 
-- type: entity
-  suffix: Robot
-  parent: WeaponEnergyShotgun
-  id: WeaponBorgEnergyShotgun
+# - type: entity
+#   suffix: Robot
+#   parent: WeaponEnergyShotgun
+#   id: WeaponBorgEnergyShotgun
