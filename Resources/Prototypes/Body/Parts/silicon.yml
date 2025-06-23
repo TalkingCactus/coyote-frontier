@@ -28,7 +28,7 @@
     - Robotics
 
 - type: entity
-  id: LeftArmBorg
+  id: LeftArmBorgSilicon
   parent: PartSilicon
   name: cyborg left arm
   components:
@@ -48,7 +48,7 @@
     heldPrefix: borg-arm
 
 - type: entity
-  id: RightArmBorg
+  id: RightArmBorgSilicon
   parent: PartSilicon
   name: cyborg right arm
   components:
@@ -68,7 +68,7 @@
     heldPrefix: borg-arm
 
 - type: entity
-  id: LeftLegBorg
+  id: LeftLegBorgSilicon
   parent: PartSilicon
   name: cyborg left leg
   components:
@@ -88,7 +88,7 @@
     heldPrefix: borg-leg
 
 - type: entity
-  id: RightLegBorg
+  id: RightLegBorgSilicon
   parent: PartSilicon
   name: cyborg right leg
   components:
@@ -108,7 +108,7 @@
     heldPrefix: borg-leg
 
 - type: entity
-  id: LightHeadBorg
+  id: LightHeadBorgSilicon
   parent: PartSilicon
   name: cyborg head
   components:
@@ -126,7 +126,7 @@
     heldPrefix: borg-head
 
 - type: entity
-  id: TorsoBorg
+  id: TorsoBorgSilicon
   parent: PartSilicon
   name: cyborg torso
   components:
